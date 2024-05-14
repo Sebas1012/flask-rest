@@ -16,7 +16,7 @@ class Token(Resource):
 
     def post(self):
         data     = request.get_json()
-        username = data['username']
+        username = data['name']
 
         return {'message': f'Hello from Flask, {username}!'}, 200
         
