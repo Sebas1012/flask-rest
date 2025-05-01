@@ -11,6 +11,7 @@ from .config import Config
 
 # Routes
 from .routes.hello import hello_ns
+from .routes.auth import auth_ns
 
 def create_app():
     app = Flask(__name__)
@@ -18,6 +19,7 @@ def create_app():
     app.config.from_object(Config)
 
     api.add_namespace(hello_ns)
+    api.add_namespace(auth_ns)
 
     db.init_app(app)
     jwt.init_app(app)
