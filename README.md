@@ -315,4 +315,6 @@ Para preguntas o problemas, por favor abre un issue en el repositorio.
 
 ---
 
-**Hecho con ❤️ por Sebastian**
+<p align="center">
+  <b>Hecho con &#10084; por: Sebastián. </b>
+</p>
